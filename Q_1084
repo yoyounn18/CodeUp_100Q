@@ -1,0 +1,26 @@
+package CodeUp_Basic_100Q;
+
+import java.util.Scanner;
+
+public class CodeUp_1084 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		int intRed = scanner.nextInt();
+		int intGreen = scanner.nextInt(); 
+		int intBlue = scanner.nextInt();
+		int intCnt = 0;
+		for(int i = 0; i < intRed; i ++) {
+			for(int j = 0; j < intGreen; j ++) {
+				for(int k = 0; k < intBlue; k ++) {
+					System.out.println(i + " " + j + " " + k);
+					intCnt ++;
+					
+				}
+			}
+		}
+		System.out.println(intCnt);
+	}
+
+}
