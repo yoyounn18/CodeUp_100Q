@@ -1,0 +1,21 @@
+package CodeUp_Basic_100Q;
+
+import java.util.Scanner;
+
+public class CodeUp_1081 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("주사위 면의 개수 입력 : ");
+		int intA = scanner.nextInt();
+		int intB = scanner.nextInt();
+		for(int i = 1; i <= intA ; i ++ ) {
+			for(int j = 1; j <= intB; j ++) {
+				System.out.println(i + " " + j);
+			}
+		}
+
+	}
+
+}
